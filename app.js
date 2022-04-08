@@ -6,7 +6,7 @@ const indexed = indexedDB;
 
 if(indexed){
     let db;
-    const request = indexed.open("Pawww", 1)
+    const request = indexed.open("Photos-Gallery-Pawww", 1)
 
     request.onupgradeneeded = () => {
         db = request.result;
